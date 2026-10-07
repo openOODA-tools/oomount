@@ -1,0 +1,14 @@
+Source: oomount
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: oomount
+Architecture: amd64
+Depends: libc6
+Description: MOUNT MANAGER
+ Capability-bounded filesystem mounter supporting bind mounts and namespaces.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
